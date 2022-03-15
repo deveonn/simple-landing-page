@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Righteous&display=swap');
+
+*{
+    padding: 0;
+    margin: 7px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0%;
+}
+#img-fire {
+    margin: 0;
+    height: 48px;
+    border-radius: 50%;
+}
+
+body{
+    background-color:rgb(253, 247, 242) ;
+    font-family:'Inter';
+
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#login{
+    text-decoration: none;
+    height: 45px;
+    width: 150px;
+    border: 0;
+    background-color: #FDF7F2;
+}
+
+#signup{
+    border: 0;
+    background-color: black;
+}
+
+#signup:hover {
+    background-color: #F4D2EB;
+}
+
+#signup > a:hover {
+    color: black;
+}
+#signup > a{
+    color: #FDF7F2;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+#login > a {
+    font-family: 'inter';
+    color: black;
+    font-weight: 600;
+}
+
+button > a{
+    text-decoration: none;
+}
+
+h1 {
+    padding-top: 15%;
+    font-size: 100px;
+    font-weight: 500;
+    width: 600px;
+}
+
+#paragrafo-descriçao{
+    padding: 30px;
+    font-size: 1.5em;
+    padding-left: 0;
+    width: 600px;
+    margin: 15px;
+}
+
+button {
+    border-radius: 15px;
+    height: 50px;
+    width: 112px;
+    border: 0;
+    margin: 0%
+}
+
+#get-started{
+    background-color: #52784F;
+}
+
+#get-started:hover{
+    background-color: #F4D2EB;
+}
+
+#get-started > a {
+    color: #FDF7F2;
+}
+
+#get-started > a:hover {
+    color:black;
+}
+#now-free {
+    display: flex;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    border: 0;
+    margin: 0;
+}
+
+#now-free > a{
+    padding-top: 15px;
+    color: black;
+}
+
+#now-free > a:hover{
+    font-size: 1.25em;
+    transition: 0.75s;
+}
+#now-free > img{
+    margin-left: 27px;
+}
+
+#img-fire:hover{
+    transform: scale(1.0) rotate(-360deg) rotate(-360deg);
+    transition: all 2s;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+
+
+#botoes-abaixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 35px;
+}
+
+#imagem-principal{
+    width: 80%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0%;
+}
+
+#footer-esquerda{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#creditos {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
