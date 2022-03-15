@@ -16,7 +16,7 @@ a {
     border-radius: 50%;
 }
 
-body{
+body {
     background-color:rgb(253, 247, 242) ;
     font-family:'Inter';
 
@@ -29,7 +29,7 @@ header {
     height: 50px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
 }
@@ -40,7 +40,7 @@ nav{
     color: black;
 }
 
-#login{
+#login {
     text-decoration: none;
     height: 45px;
     width: 150px;
@@ -48,7 +48,7 @@ nav{
     background-color: #FDF7F2;
 }
 
-#signup{
+#signup {
     border: 0;
     background-color: black;
 }
@@ -60,7 +60,7 @@ nav{
 #signup > a:hover {
     color: black;
 }
-#signup > a{
+#signup > a {
     color: #FDF7F2;
     font-family: 'Inter';
     font-weight: 600;
@@ -72,7 +72,7 @@ nav{
     font-weight: 600;
 }
 
-button > a{
+button > a {
     text-decoration: none;
 }
 
@@ -99,11 +99,11 @@ button {
     margin: 0%
 }
 
-#get-started{
+#get-started {
     background-color: #52784F;
 }
 
-#get-started:hover{
+#get-started:hover {
     background-color: #F4D2EB;
 }
 
@@ -136,7 +136,7 @@ button {
     margin-left: 27px;
 }
 
-#img-fire:hover{
+#img-fire:hover {
     transform: scale(1.0) rotate(-360deg) rotate(-360deg);
     transition: all 2s;
     transition-property: all;
@@ -147,7 +147,7 @@ button {
 
 
 
-#botoes-abaixo{
+#botoes-abaixo {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -169,7 +169,7 @@ main {
     width: 80%;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -177,7 +177,7 @@ footer{
     padding: 0%;
 }
 
-#footer-esquerda{
+#footer-esquerda {
     display: flex;
     padding-top: 40px;
     padding-left: 15px;
