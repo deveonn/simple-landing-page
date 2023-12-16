@@ -15,7 +15,19 @@
         <nav>
             <img src="assets/img/logo.png" alt="">
             <a class="nav-links" href="#">Features</a>
-            <a class="nav-links" href="#">Solutions</a>
+
+            <div id="hide-options">
+                <div class="nav-links solutions" onclick="showSolutionsOptions()">
+                    Solutions
+                    <div id="arrow"></div>
+
+                    <div id="solutions-options">
+                        <p>Credit Card</p>
+                        <p>How app works</p>
+                        <p>Transactions</p>
+                    </div>
+                </div>  
+            </div>
             <a class="nav-links" href="#">Resources</a>
             <a class="nav-links" href="#">Pricing</a>
         </nav>
@@ -54,5 +66,8 @@
             <img src="./assets/img/imagem-footer.png">
         </aside>
     </footer>
+
+    <script src="./script.js">
+    </script>
 </body>
 </html>
